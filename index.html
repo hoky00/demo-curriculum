@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Profesional</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="barra-acciones no-imprimir">
+        <button id="boton-tema" class="btn-accion">🌙 Modo Oscuro</button>
+        <button id="boton-pdf" class="btn-accion btn-pdf" onclick="window.print()">🖨️ Generar PDF</button>
+    </div>
+
+    <div class="hoja-cv">
+        
+        <header class="encabezado">
+            <div class="columna-foto">
+                <img src="https://img.freepik.com/foto-gratis/retrato-hombre-blanco-aislado_53876-40306.jpg" alt="Foto Curriculum" class="foto-perfil">
+            </div>
+            <div class="columna-datos">
+                <h1 id="nombre">JUAN PÉREZ</h1>
+                <h2 id="profesion">Desarrollador Web Junior</h2>
+                <p class="resumen">
+                    Estudiante apasionado por la tecnología con capacidad de adaptación y aprendizaje rápido. 
+                    Busco mi primera oportunidad laboral para aplicar mis conocimientos en ofimática y desarrollo.
+                </p>
+            </div>
+        </header>
+
+        <div class="cuerpo-cv">
+            <aside class="barra-lateral">
+                
+                <section class="seccion-lateral">
+                    <h3>CONTACTO</h3>
+                    <div class="datos-contacto">
+                        <p><i class="fas fa-envelope"></i> juan@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> +502 5555-0000</p>
+                        <p><i class="fas fa-map-marker-alt"></i> San Marcos, GT</p>
+                    </div>
+                </section>
+
+                <section class="seccion-lateral no-imprimir">
+                    <h3>CONECTEMOS</h3>
+                    <div class="botones-sociales">
+                        <a href="https://wa.me/50255550000" target="_blank" class="btn-social whatsapp">
+                            <i class="fab fa-whatsapp"></i> WhatsApp
+                        </a>
+                        
+                        <a href="https://facebook.com/juanperez" target="_blank" class="btn-social facebook">
+                            <i class="fab fa-facebook"></i> Facebook
+                        </a>
+
+                        <a href="mailto:juan@gmail.com" class="btn-social gmail">
+                            <i class="fab fa-google"></i> Enviar Correo
+                        </a>
+
+                        <a href="tel:+50255550000" class="btn-social telefono">
+                            <i class="fas fa-phone"></i> Llamar
+                        </a>
+                    </div>
+                </section>
+
+                <section class="seccion-lateral">
+                    <h3>HABILIDADES</h3>
+                    <ul class="lista-skills">
+                        <li>Microsoft Office</li>
+                        <li>HTML & CSS</li>
+                        <li>Atención al Cliente</li>
+                        <li>Trabajo en Equipo</li>
+                    </ul>
+                </section>
+            </aside>
+
+            <main class="contenido-principal">
+                
+                <section class="seccion">
+                    <h3><i class="fas fa-briefcase"></i> EXPERIENCIA LABORAL</h3>
+                    
+                    <div class="item-trabajo">
+                        <h4>Asistente Administrativo</h4>
+                        <span class="fecha">Ene 2023 - Actualidad | Empresa XYZ</span>
+                        <p>Encargado de gestión de archivos, atención telefónica y uso de Excel para inventarios.</p>
+                    </div>
+
+                    <div class="item-trabajo">
+                        <h4>Pasantía en Soporte Técnico</h4>
+                        <span class="fecha">Jun 2022 - Dic 2022 | Computación S.A.</span>
+                        <p>Mantenimiento preventivo de computadoras e instalación de software.</p>
+                    </div>
+                </section>
+
+                <section class="seccion">
+                    <h3><i class="fas fa-graduation-cap"></i> EDUCACIÓN</h3>
+                    
+                    <div class="item-educacion">
+                        <h4>Ingeniería en Sistemas (En curso)</h4>
+                        <span class="fecha">Universidad Mariano Gálvez</span>
+                    </div>
+
+                    <div class="item-educacion">
+                        <h4>Bachiller en Ciencias y Letras</h4>
+                        <span class="fecha">Colegio La Asunción | 2021</span>
+                    </div>
+                </section>
+
+            </main>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
